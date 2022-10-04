@@ -4,6 +4,25 @@ body {
   margin: 0;
 }
 
+button {
+  width: 120px;
+  height: 40px;
+  border: 1px solid #FF305B;
+  color: #FF305B;
+  border-radius: 20px;
+  text-transform: capitalize;
+  background: none;
+  font-size: 0.9em;
+  cursor: pointer;
+}
+
+.section-border {
+  width: 100%;
+  display: block;
+  height: 1px;
+  background-color: rgb(237, 237, 237);
+}
+
 
 @font-face {
   font-family: OpenSans;
