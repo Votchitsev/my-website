@@ -73,6 +73,12 @@
   font-weight: bold;
 }
 
+@media (max-width: 1200px) {
+  .banner-content-container {
+    width: 95% !important;
+  }
+}
+
 @keyframes cursor {
   0% {
     background-color: aqua;
