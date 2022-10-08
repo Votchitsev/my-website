@@ -2,8 +2,11 @@ import Banner from './widgets/banner.widget/banner.widget';
 import AboutMe from './widgets/about-me.widget/about-me.widget';
 import Window from './Window';
 import Header from './widgets/header.widget/header.widget';
+import Img from './widgets/about-me.widget/img/dmitrii.votchitsev_2215405451567359885_0.jpg';
 
 function initElements() {
+  document.querySelector('.about-me--info--photo').src = Img;
+
   const header = new Header(document.querySelector('.header'));
 
   const banner = new Banner(document.querySelector('.banner'));
