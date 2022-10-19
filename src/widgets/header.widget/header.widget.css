@@ -21,6 +21,7 @@
   position: fixed;
   background-color: white;
   color: black;
+  z-index: 2;
 
   transition: all 500ms;
 }
