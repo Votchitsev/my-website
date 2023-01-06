@@ -19,7 +19,6 @@ class AboutMe {
     this.text = config.aboutMeInfoText;
     this.skills = element.querySelectorAll('.skill-line');
     this.animateSkills = this.animateSkills.bind(this);
-    this.position = this.element.getBoundingClientRect().y + window.scrollY - 200;
   }
 
   run() {
