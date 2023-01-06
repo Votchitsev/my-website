@@ -16,11 +16,11 @@ function initElements() {
   const aboutMe = new AboutMe(document.querySelector('.about-me'));
   aboutMe.run();
 
-  const appWindow = new Window(header, aboutMe);
-  appWindow.run();
-
   const petProjects = new PetProjects(document.querySelector('.pet-projects--container'));
   petProjects.run();
+
+  const appWindow = new Window(header, aboutMe, petProjects);
+  appWindow.run();
 }
 
 document.addEventListener('DOMContentLoaded', initElements);

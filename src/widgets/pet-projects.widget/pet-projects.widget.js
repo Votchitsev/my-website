@@ -16,6 +16,7 @@ class PetProjects {
   constructor(container) {
     this.container = container;
     this.petProjects = this.container.querySelectorAll('.pet-project');
+    this.position = document.querySelector('.pet-projects').getBoundingClientRect().y + window.scrollY - 200;
   }
 
   run() {

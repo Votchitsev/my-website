@@ -11,6 +11,13 @@ class Header {
     this.letElement = this.letElement.bind(this);
     this.showDropdownMenu = this.showDropdownMenu.bind(this);
     this.eventRoute = this.eventRoute.bind(this);
+    this.items = {
+      home: this.menuContainer.querySelector('.header-menu-item--home'),
+      about: this.menuContainer.querySelector('.header-menu-item--about'),
+      education: this.menuContainer.querySelector('.header-menu-item--education'),
+      projects: this.menuContainer.querySelector('.header-menu-item--pet-projects'),
+      contact: this.menuContainer.querySelector('.header-menu-item--contact'),
+    };
 
     document.addEventListener('click', this.eventRoute);
   }
