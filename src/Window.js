@@ -1,4 +1,4 @@
-import setSectionPosition from './sectionPosition';
+import getSectionPosition from './sectionPosition';
 
 class Window {
   constructor(header, aboutMe) {
@@ -79,10 +79,10 @@ class Window {
 
   setSectionPositions() {
     this.sectionPositions = {
-      about: setSectionPosition('about-me'),
-      education: setSectionPosition('education'),
-      projects: setSectionPosition('pet-projects'),
-      contact: setSectionPosition('contact'),
+      about: getSectionPosition('about-me'),
+      education: getSectionPosition('education'),
+      projects: getSectionPosition('pet-projects'),
+      contact: getSectionPosition('contact'),
     };
   }
 }

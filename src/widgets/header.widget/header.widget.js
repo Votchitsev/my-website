@@ -1,3 +1,5 @@
+import scrollToSection from './softScroll';
+
 class Header {
   constructor(element) {
     this.element = element;
@@ -11,6 +13,7 @@ class Header {
     this.letElement = this.letElement.bind(this);
     this.showDropdownMenu = this.showDropdownMenu.bind(this);
     this.eventRoute = this.eventRoute.bind(this);
+
     this.items = {
       home: this.menuContainer.querySelector('.header-menu-item--home'),
       about: this.menuContainer.querySelector('.header-menu-item--about'),
@@ -25,6 +28,10 @@ class Header {
   eventRoute(e) {
     if (e.target.classList.contains('header-menu-toggle')) {
       this.showDropdownMenu();
+    }
+
+    if (e.target.classList.contains('header-menu-item')) {
+      scrollToSection(e);
     }
   }
 
