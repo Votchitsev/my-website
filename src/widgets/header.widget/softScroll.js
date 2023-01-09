@@ -28,7 +28,8 @@ function softScrollTo(position) {
 }
 
 export default function scrollToSection(e) {
-  if (e.target.classList.contains('header-menu-item--home')) {
+  if (e.target.classList.contains('header-menu-item--home')
+    || e.target.classList.contains('header-logo')) {
     softScrollTo(0);
   }
 

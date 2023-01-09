@@ -34,6 +34,10 @@ class Header {
       scrollToSection(e);
       this.showDropdownMenu();
     }
+
+    if (e.target.classList.contains('header-logo')) {
+      scrollToSection(e);
+    }
   }
 
   holdElement() {
