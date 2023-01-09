@@ -209,4 +209,8 @@ textarea.contact-input {
     align-self: center;
     width: 80%;
   }
+
+  .contact-form--title {
+    font-size: 1.5em;
+  }
 }

@@ -29,6 +29,7 @@
 .header-logo {
   font-weight: bold;
   font-size: 2.2em;
+  cursor: pointer;
 }
 
 .header-menu-container {
