@@ -99,6 +99,12 @@
     display: none;
   }
 
+  @media (max-width: 1200px) {
+    .header-logo {
+      font-size: 1.8em;
+    }
+  }
+
 
 
   @keyframes dropdownMenu {
