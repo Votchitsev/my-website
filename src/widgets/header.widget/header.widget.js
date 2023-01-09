@@ -32,6 +32,7 @@ class Header {
 
     if (e.target.classList.contains('header-menu-item')) {
       scrollToSection(e);
+      this.showDropdownMenu();
     }
   }
 
