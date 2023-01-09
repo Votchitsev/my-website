@@ -77,6 +77,22 @@
   .banner-content-container {
     width: 95% !important;
   }
+
+  .banner-content--static-text--hello {
+    font-size: 1em;
+  }
+
+  .banner-content--static-text--name {
+    font-size: 1em;
+  }
+
+  .banner-content-text {
+    font-size: 1em;
+  }
+
+  .banner-content-cursor {
+    height: 20px;
+  }
 }
 
 @keyframes cursor {
